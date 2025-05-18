@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_local_storage import LocalStorage
-import pyautogui
 
 localS = LocalStorage()
 localS.deleteAll()
@@ -30,6 +29,4 @@ st.success("Gravação exitosa")
 #allItens = localS.getAll()
 #st.write(allItens)
 
-if st.button('fechar'):
-    pyautogui.hotkey('ctrl','w')
 
