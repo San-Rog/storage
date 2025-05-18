@@ -10,7 +10,10 @@ st.write(localStorage.getAll())
 
 st.info('enchendo...')
 localStorage.setItem("nome", "João");
-localStorage.setItem("idade", "30");
-localStorage.setItem("cidade", "São Paulo");
+try:
+  localStorage.setItem("idade", "30");
+  localStorage.setItem("cidade", "São Paulo");
+except:
+  st.write('não entraram', "idade", "30")
 st.write(localStorage.getAll())
 
