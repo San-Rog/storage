@@ -9,8 +9,6 @@ st.write(localS.getAll())
 st.info('enchendo...')
 
 def supply(itemKey, itemValue):
-    itemKey = categ
-    itemValue = pairs
     st.write(itemKey)
     st.write(itemValue)
     localS.setItem(itemKey, itemValue)
