@@ -7,20 +7,20 @@ st.info('Encontrado')
 st.write(localS.getAll())
 
 st.info('enchendo...')
-#Gravar o para chave-valor em localstorage
-for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo'], 
-                    'membros': [12, 4, 6]}.items():    
+
+def supply(itemKey, itemValue):
     itemKey = categ
     itemValue = pairs
     st.write(itemKey)
     st.write(itemValue)
-    #st.write(localS.getAll())
-    try:
-      localS.setItem(itemKey, itemValue)
-    except:
-      pass
-st.success("Gravação exitosa")
-
+    localS.setItem(itemKey, itemValue)
+  st.success("Gravação exitosa
+itemKey = 'dados' 
+iteValues = ['Zebra', 'tratmento', 'tubo', 'martelo']
+supply(itemKey, itemValue)
+itemKey = 'zebra' 
+iteValues = ['carrro', 0, 12, 14]
+supply(itemKey, itemValue)
 st.write(localS.getAll())
 
 #Ler a chave camera.
