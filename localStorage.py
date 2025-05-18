@@ -8,7 +8,7 @@ st.info('Encontrado')
 st.write(localS.getAll())
 
 st.info('enchendo...')
-localS.setItem('mama', 'cana')
+localS.setItem('mama', 'ddddd')
 #localS.setItem('lema', 'seis')
 st.write(localS.getAll())
 
