@@ -10,6 +10,6 @@ st.write(localStorage.getAll())
 
 st.info('enchendo...')
 localStorage.setItem("dados", [[12, 3, 4, 5, 6, 7], [2, 4, 5],
-                               [0], [2222])
+                               [0], [2222]])
 st.write(localStorage.getAll())
 
