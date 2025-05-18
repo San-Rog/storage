@@ -1,13 +1,14 @@
 import streamlit as st
 from streamlit_local_storage import LocalStorage
 
-st.error('deletando...')
-localS = LocalStorage()
+#st.error('deletando...')
+#localS = LocalStorage()
 #localS.deleteAll()
 
 st.info('enchendo...')
 #Gravar o para chave-valor em localstorage
-for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo']}.items():    
+for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo'], 
+                    'membros': [12, 4, 6]}.items():    
     itemKey = categ
     itemValue = pairs
     st.write(itemKey)
