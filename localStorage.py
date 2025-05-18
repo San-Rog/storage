@@ -21,6 +21,8 @@ for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo'],
       pass
 st.success("Gravação exitosa")
 
+st.write(localS.getAll())
+
 #Ler a chave camera.
 #itemKey = "camera"
 #storageItem = localS.getItem(itemKey)
