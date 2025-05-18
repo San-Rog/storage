@@ -1,7 +1,8 @@
 import streamlit as st
 from streamlit_local_storage import LocalStorage
-localS = LocalStorage()
+import pyautogui
 
+localS = LocalStorage()
 localS.deleteAll()
 
 #Gravar o para chave-valor em localstorage
