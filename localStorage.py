@@ -9,11 +9,6 @@ st.info('Encontrado')
 st.write(localStorage.getAll())
 
 st.info('enchendo...')
-localStorage.setItem("nome", "João");
-try:
-  localStorage.setItem("idade", "30");
-  localStorage.setItem("cidade", "São Paulo");
-except:
-  st.write(localStorage.getItem("idade"))
+localStorage.setItem("dados", [12, 3, 4, 5, 6, 7]);
 st.write(localStorage.getAll())
 
