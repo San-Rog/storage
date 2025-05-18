@@ -17,10 +17,10 @@ def supply(itemKey, itemValue):
 st.success("Gravação exitosa")
 
 itemKey = 'dados' 
-iteValues = ['Zebra', 'tratmento', 'tubo', 'martelo']
+itemValue = ['Zebra', 'tratmento', 'tubo', 'martelo']
 supply(itemKey, itemValue)
 itemKey = 'zebra' 
-iteValues = ['carrro', 0, 12, 14]
+itemValue = ['carrro', 0, 12, 14]
 supply(itemKey, itemValue)
 st.write(localS.getAll())
 
