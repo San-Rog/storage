@@ -5,11 +5,11 @@ localStorage = LocalStorage()
 localStorage.deleteAll()
 
 st.info('Encontrado')
-st.write(localS.getAll())
+st.write(localStorage.getAll())
 
 st.info('enchendo...')
 localStorage.setItem("nome", "João");
 localStorage.setItem("idade", "30");
 localStorage.setItem("cidade", "São Paulo");
-st.write(localS.getAll())
+st.write(localStorage.getAll())
 
