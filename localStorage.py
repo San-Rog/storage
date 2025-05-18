@@ -14,7 +14,10 @@ for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo'],
     st.write(itemKey)
     st.write(itemValue)
     #st.write(localS.getAll())
-    localS.setItem(itemKey, itemValue)
+    try:
+      localS.setItem(itemKey, itemValue)
+    except:
+      pass
 st.success("Gravação exitosa")
 
 #Ler a chave camera.
