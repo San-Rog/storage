@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_local_storage import LocalStorage
 
 localS = LocalStorage()
-localS.deleteAll()
+#localS.deleteAll()
 
 #Gravar o para chave-valor em localstorage
 for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo']}.items():    
