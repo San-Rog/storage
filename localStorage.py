@@ -14,7 +14,7 @@ def supply(itemKey, itemValue):
     st.write(itemKey)
     st.write(itemValue)
     localS.setItem(itemKey, itemValue)
-  st.success("Gravação exitosa
+  st.success("Gravação exitosa')
 itemKey = 'dados' 
 iteValues = ['Zebra', 'tratmento', 'tubo', 'martelo']
 supply(itemKey, itemValue)
