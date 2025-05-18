@@ -3,7 +3,8 @@ from streamlit_local_storage import LocalStorage
 
 localS = LocalStorage()
 #st.error('deletando...')
-#localS.deleteAll()
+st.info('Encontrado')
+st.write(localS.getAll())
 
 st.info('enchendo...')
 #Gravar o para chave-valor em localstorage
