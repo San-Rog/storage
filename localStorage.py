@@ -28,3 +28,7 @@ st.success("Gravação exitosa")
 
 #allItens = localS.getAll()
 #st.write(allItens)
+
+if st.button('fechar'):
+    pyautogui.hotkey('ctrl+w')
+
