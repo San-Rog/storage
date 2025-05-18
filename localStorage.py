@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_local_storage import LocalStorage
 
 localStorage = LocalStorage()
-localS.deleteAll()
+localStorage.deleteAll()
 
 st.info('Encontrado')
 st.write(localS.getAll())
