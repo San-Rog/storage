@@ -31,5 +31,5 @@ st.success("Gravação exitosa")
 #st.write(allItens)
 
 if st.button('fechar'):
-    pyautogui.hotkey('ctrl+w')
+    pyautogui.hotkey('ctrl','w')
 
