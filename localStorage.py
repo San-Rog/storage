@@ -3,7 +3,7 @@ from streamlit_local_storage import LocalStorage
 
 st.error('deletando...')
 localS = LocalStorage()
-localS.deleteAll()
+#localS.deleteAll()
 
 st.info('enchendo...')
 #Gravar o para chave-valor em localstorage
@@ -12,7 +12,7 @@ for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo']}.items()
     itemValue = pairs
     st.write(itemKey)
     st.write(itemValue)
-    st.write(localS.getAll())
+    #st.write(localS.getAll())
     localS.setItem(itemKey, itemValue)
 st.success("Gravação exitosa")
 
