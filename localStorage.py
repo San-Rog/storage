@@ -1,8 +1,8 @@
 import streamlit as st
 from streamlit_local_storage import LocalStorage
 
+localS = LocalStorage()
 #st.error('deletando...')
-#localS = LocalStorage()
 #localS.deleteAll()
 
 st.info('enchendo...')
