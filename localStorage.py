@@ -14,6 +14,6 @@ try:
   localStorage.setItem("idade", "30");
   localStorage.setItem("cidade", "São Paulo");
 except:
-  st.write('não entraram', "idade", "30")
+  st.write(localStorage.getItem("idade"))
 st.write(localStorage.getAll())
 
