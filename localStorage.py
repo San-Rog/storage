@@ -1,9 +1,11 @@
 import streamlit as st
 from streamlit_local_storage import LocalStorage
 
+st.error('deletando')
 localS = LocalStorage()
-#localS.deleteAll()
+localS.deleteAll()
 
+st.info('enchencdo')
 #Gravar o para chave-valor em localstorage
 for categ, pairs in {'dados': ['Zebra', 'tratmento', 'tubo', 'martelo']}.items():    
     itemKey = categ
