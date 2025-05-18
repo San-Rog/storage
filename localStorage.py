@@ -9,5 +9,5 @@ st.write(localS.getAll())
 
 st.info('enchendo...')
 localS.setItem('mama', 'cana')
-localS.setItem('lema', 'seis')
+#localS.setItem('lema', 'seis')
 
