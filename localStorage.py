@@ -9,6 +9,7 @@ st.info('Encontrado')
 st.write(localStorage.getAll())
 
 st.info('enchendo...')
-localStorage.setItem("dados", [12, 3, 4, 5, 6, 7]);
+localStorage.setItem("dados", [12, 3, 4, 5, 6, 7])
+localStorage.setItem("medidas", [12, 3, 4, 5, 6, 7])
 st.write(localStorage.getAll())
 
