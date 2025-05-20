@@ -2,6 +2,7 @@ body {
   background-color: red;
 }
 
+/*seletores */
 h1 {
   text-align: left;
   font-family: times;
@@ -16,20 +17,23 @@ p {
   color: blue;
 }
 
+/*seletores de id*/
 #para1 {
   text-align: center;
   color: yellow;
   font-size:34px;
 }
 
+/*seletores de classe*/
 p.center {
   text-align: center;
   color: red; 
   font-size:5px; 
 }
 
+/*todos os elementos HTML na página*/
 * {
   text-align: center;
   color: blue;
-  font-size:40px;
+  font-size:23px;
 }
