@@ -37,10 +37,12 @@ with open('teste.css') as f:
     css = f.read()
 
 html = """
-<body>
-  <h1>Meu exemplo inicial</h1>
-  <p>Parágrafo inicial.</p>
-<body>
+<hmtl>
+  <body>
+    <h1>My First CSS Example</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
 """
 st.markdown(html, unsafe_allow_html=True)
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
