@@ -30,5 +30,5 @@ st.write(data)
 value = st.slider(label="Select a range of values", 
                   min_value=-100, 
                   max_value=100, 
-                  value=0)
+                  value=(0, 0))
 st.write("Value:", value)
