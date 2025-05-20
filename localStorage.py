@@ -14,4 +14,16 @@ localStorage.setItem("dados", [[12, 3, 4, 5, 6, 7], [2, 4, 5],
 st.write(localStorage.getAll())
 
 import pypickle
+#Arquivo pickle
+filepath = 'test.pkl'
 
+# Some data
+data = [1,2,3,4,5]
+
+# Save
+status = pypickle.save(filepath, data)
+
+
+# Load file
+data = pypickle.load(filepath)
+st.write(data)
