@@ -40,7 +40,6 @@ with open('teste.css') as f:
 html = """
 <hmtl>
   <body>
-    <style>
     <p class="center large">This paragraph refers to two classes.</p>
     <p id="para1">Hello World!</p>
     <h1>My First CSS Example</h1>
@@ -48,7 +47,6 @@ html = """
     <h3>My First CSS Example - H3</h3>
     <h4>My First CSS Example - H$</h4>
     <h5>My First CSS Example - H5</h5>
-    </style>
   </body>
 </html>
 """
