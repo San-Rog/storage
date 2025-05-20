@@ -24,6 +24,7 @@ p {
   text-align: center;
   color: yellow;
   font-size:34px;
+  lightness: hsl(0, 100%, 90%);
 }
 
 /*seletores de classe*/
