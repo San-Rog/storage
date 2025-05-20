@@ -31,14 +31,6 @@ p.center {
   font-size:5px; 
 }
 
-/*todos os elementos HTML na página
-* {
-  text-align: center;
-  color: blue;
-  font-size:23px;
-}
-*/
-
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.
 h3, h4, h5 {
   text-align: center;
