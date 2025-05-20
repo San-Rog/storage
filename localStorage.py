@@ -34,17 +34,9 @@ value = st.slider(label="Select a range of values",
                  label_visibility="hidden")
 st.write("Value:", value)
 
-st.title('A Random App')
-st.write('Look at the pretty waves')
-
 html = """
-</head>
-<body>
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
+<h1>Meu exemplo inicial</h1>
+<p>Parágrafo inicial.</p>
 """
 st.markdown(html, unsafe_allow_html=True)
 
