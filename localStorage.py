@@ -31,8 +31,8 @@ value = st.slider(label="Select a range of values",
                   min_value=-100, 
                   max_value=100, 
                   value=0, 
-                 label_visibility="hidden", 
-                 id='slider')
+                  label_visibility="hidden", 
+                  key='slider')
 
 with open('teste.css') as f:
     css = f.read()
