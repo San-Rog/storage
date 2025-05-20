@@ -27,5 +27,8 @@ status = pypickle.save(filepath, data)
 data = pypickle.load(filepath)
 st.write(data)
 
-value = st.slider("Select a range of values", -100, 0, 100)
+value = st.slider(label="Select a range of values", 
+                  min_value=-100, 
+                  max_value=100, 
+                  value=0)
 st.write("Value:", value)
