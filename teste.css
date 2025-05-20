@@ -2,7 +2,6 @@ body {
   background-color: red;
 }
 
-//seletores
 h1 {
   text-align: left;
   font-family: times;
@@ -17,11 +16,14 @@ p {
   color: blue;
 }
 
-//seletor de id
 #para1 {
   text-align: center;
   color: yellow;
   font-size:34px;
 }
 
-//seletor de classe
+p.center {
+  text-align: center;
+  color: red; 
+  font-size:5px; 
+}
