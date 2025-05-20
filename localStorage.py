@@ -33,3 +33,11 @@ value = st.slider(label="Select a range of values",
                   value=0, 
                  label_visibility="hidden")
 st.write("Value:", value)
+
+st.title('A Random App')
+st.write('Look at the pretty waves')
+
+with open('./files/wave.css') as f:
+    css = f.read()
+
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
