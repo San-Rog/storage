@@ -27,3 +27,9 @@ p.center {
   color: red; 
   font-size:5px; 
 }
+
+* {
+  text-align: center;
+  color: blue;
+  font-size:40px;
+}
