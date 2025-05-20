@@ -33,7 +33,7 @@ p.center {
 
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
 h3, h4, h5 {
-  text-align: center;
-  color: orange;
+  text-align: left;
+  color: green;
   font-size:18px;  
 }
