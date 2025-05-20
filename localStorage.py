@@ -32,7 +32,9 @@ value = st.slider(label="Select a range of values",
                   max_value=100, 
                   value=0, 
                  label_visibility="hidden")
-st.write("Value:", value)
+
+with open('teste.css') as f:
+    css = f.read()
 
 html = """
 <body>
@@ -41,8 +43,4 @@ html = """
 <body>
 """
 st.markdown(html, unsafe_allow_html=True)
-
-with open('teste.css') as f:
-    css = f.read()
-
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
