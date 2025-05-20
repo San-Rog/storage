@@ -27,8 +27,8 @@ p {
 /*seletores de classe*/
 p.center {
   text-align: center;
-  color: red; 
-  font-size:5px; 
+  color:Tomato;
+  font-size:60px; 
 }
 
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
