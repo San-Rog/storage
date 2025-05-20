@@ -35,8 +35,10 @@ value = st.slider(label="Select a range of values",
 st.write("Value:", value)
 
 html = """
-<h1>Meu exemplo inicial</h1>
-<p>Parágrafo inicial.</p>
+<body>
+  <h1>Meu exemplo inicial</h1>
+  <p>Parágrafo inicial.</p>
+<body>
 """
 st.markdown(html, unsafe_allow_html=True)
 
