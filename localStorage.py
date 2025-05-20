@@ -41,7 +41,7 @@ html = """
 <hmtl>
   <body>
     <p class="center">This paragraph refers to two classes.</p>
-    <p id="para1">Hello World!</p>
+    <p id="para1">Hello World - SOFREMOS TODAS AS DORES DO MUNDO!</p>
     <h1>My First CSS Example</h1>
     <p>Sempre ganharemos a batalha.</p>
     <h3>My First CSS Example - H3</h3>
