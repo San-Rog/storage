@@ -30,7 +30,8 @@ p {
 p.center {
   text-align: center;
   color:Tomato;
-  font-size:60px; 
+  font-size:60px;
+  background-color:rgb(240, 240, 240); 
 }
 
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
