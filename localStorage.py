@@ -45,7 +45,7 @@ html = """
     <h1>My First CSS Example</h1>
     <p>Sempre ganharemos a batalha.</p>
     <h3>My First CSS Example - H3</h3>
-    <h4>My First CSS Example - H$</h4>
+    <h4>My First CSS Example - H4</h4>
     <h5>My First CSS Example - H5</h5>
   </body>
 </html>
