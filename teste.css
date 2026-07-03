@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: blue;
 }
 
 /*seletores */
@@ -22,7 +22,7 @@ p {
 /*seletores de id*/
 #para1 {
   text-align: center;
-  color: yellow;
+  color: black;
   font-size:34px;
   lightness: hsl(0, 100%, 90%);
 }
