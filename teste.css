@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: lime;
 }
 
 /*seletores */
@@ -15,14 +15,14 @@ p {
   text-align: center;
   font-family: verdana;
   font-size: 20px;
-  color: black;
+  color: yellow;
   border:2px solid green;
 }
 
 /*seletores de id*/
 #para1 {
   text-align: center;
-  color: black;
+  color: yellow;
   font-size:34px;
   lightness: hsl(0, 100%, 90%);
 }
@@ -38,6 +38,6 @@ p.center {
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
 h3, h4, h5 {
   text-align: center;
-  color:black;
+  color:yellow;
   font-size:18px;  
 }
