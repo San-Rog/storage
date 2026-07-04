@@ -7,7 +7,7 @@ h1 {
   text-align: left;
   font-family: times;
   font-size:34px;
-  color: navy;
+  color: dodgerlime;
   background-color:rgb(255, 99, 71);
 }
 
@@ -21,23 +21,23 @@ p {
 
 /*seletores de id*/
 #para1 {
-  text-align: center;
+  text-align: right;
   color: forestgreen;
   font-size:34px;
   lightness: hsl(0, 100%, 90%);
 }
 
 /*seletores de classe*/
-p.center {
-  text-align: center;
-  color:Tomato;
+p.right {
+  text-align: right;
+  color:orange;
   font-size:60px;
   background-color:rgb(240, 240, 240); 
 }
 
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
 h3, h4, h5 {
-  text-align: center;
+  text-align: right;
   color:forestgreen;
   font-size:18px;  
 }
