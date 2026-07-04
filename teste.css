@@ -7,22 +7,22 @@ h1 {
   text-align: left;
   font-family: times;
   font-size:34px;
-  color: navy;
+  color: cyan;
   background-color:rgb(255, 99, 71);
 }
 
 p {
-  text-align: center;
+  text-align: right;
   font-family: verdana;
   font-size: 20px;
-  color: forestgreen;
+  color: yellow;
   border:2px solid green;
 }
 
 /*seletores de id*/
 #para1 {
   text-align: center;
-  color: forestgreen;
+  color: yellow;
   font-size:34px;
   lightness: hsl(0, 100%, 90%);
 }
@@ -30,7 +30,7 @@ p {
 /*seletores de classe*/
 p.center {
   text-align: center;
-  color:Tomato;
+  color:orange;
   font-size:60px;
   background-color:rgb(240, 240, 240); 
 }
@@ -38,6 +38,6 @@ p.center {
 /*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
 h3, h4, h5 {
   text-align: center;
-  color:forestgreen;
+  color:yellow;
   font-size:18px;  
 }
