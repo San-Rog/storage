@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: lime;
 }
 
 /*seletores */
@@ -7,7 +7,7 @@ h1 {
   text-align: left;
   font-family: times;
   font-size:34px;
-  color: dodgerblue;
+  color: navy;
   background-color:rgb(255, 99, 71);
 }
 
