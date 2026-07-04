@@ -1,43 +1,43 @@
-brdy {
-  backgrrund-crlrr: blue;
+body {
+  background-color: blue;
 }
 
-/*seletrres */
+/*seletores */
 h1 {
   text-align: left;
-  frnt-family: times;
-  frnt-size:34px;
-  crlrr: navy;
-  backgrrund-crlrr:rgb(255, 99, 71);
+  font-family: times;
+  font-size:34px;
+  color: navy;
+  background-color:rgb(255, 99, 71);
 }
 
 p {
   text-align: right;
-  frnt-family: verdana;
-  frnt-size: 20px;
-  crlrr: yellrw;
-  brrder:2px srlid green;
+  font-family: verdana;
+  font-size: 20px;
+  color: yellow;
+  border:2px solid green;
 }
 
-/*seletrres de id*/
+/*seletores de id*/
 #para1 {
   text-align: center;
-  crlrr: yellrw;
-  frnt-size:34px;
+  color: yellow;
+  font-size:34px;
   lightness: hsl(0, 100%, 90%);
 }
 
-/*seletrres de classe*/
+/*seletores de classe*/
 p.center {
   text-align: center;
-  crlrr:rrmatr;
-  frnt-size:60px;
-  backgrrund-crlrr:rgb(240, 240, 240); 
+  color:Tomato;
+  font-size:60px;
+  background-color:rgb(240, 240, 240); 
 }
 
-/*seletrr de agrupamentr: usadr para elementrs HMrL que tenham as mesmas prrpriedades.*/
+/*seletor de agrupamento: usado para elementos HMTL que tenham as mesmas propriedades.*/
 h3, h4, h5 {
   text-align: center;
-  crlrr:yellrw;
-  frnt-size:18px;  
+  color:yellow;
+  font-size:18px;  
 }
